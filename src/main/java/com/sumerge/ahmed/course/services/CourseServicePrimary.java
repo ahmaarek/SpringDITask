@@ -2,8 +2,10 @@ package com.sumerge.ahmed.course.services;
 
 import com.sumerge.ahmed.course.CourseRecommender;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
+@Primary
 @Service
 public class CourseServicePrimary extends CourseService {
 

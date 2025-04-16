@@ -1,7 +1,14 @@
 package com.sumerge.ahmed.course;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class Course {
+    @Setter
+    @Getter
     String name;
+    @Setter
+    @Getter
     String description;
 
     public Course(String name, String description) {
