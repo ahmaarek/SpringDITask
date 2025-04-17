@@ -1,4 +1,6 @@
-package com.sumerge.ahmed.course;
+package com.sumerge.ahmed.course.recommender;
+
+import com.sumerge.ahmed.course.entity.Course;
 
 import java.util.List;
 

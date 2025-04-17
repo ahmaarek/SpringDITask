@@ -1,8 +1,8 @@
 package com.sumerge.ahmed.config;
 
-import com.sumerge.ahmed.course.CourseRecommender;
-import com.sumerge.ahmed.course.HumanitiesRecommender;
-import com.sumerge.ahmed.course.SciencesRecommender;
+import com.sumerge.ahmed.course.recommender.CourseRecommender;
+import com.sumerge.ahmed.course.recommender.HumanitiesRecommender;
+import com.sumerge.ahmed.course.recommender.SciencesRecommender;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
