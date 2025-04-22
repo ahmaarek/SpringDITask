@@ -23,9 +23,14 @@ public class CourseController {
 
 
     @GetMapping
-    public Page<CourseDTO> getAllCourses(@ParameterObject Pageable pageable) {
+    public Page<CourseDTO> getAllCourses(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "5") int size) {
+        System.out.println(">>> Called with page=" + page + " size=" + size);
+        Pageable pageable = org.springframework.data.domain.PageRequest.of(page, size);
         return courseService.getAllCourses(pageable);
     }
+
 
 
     @PostMapping

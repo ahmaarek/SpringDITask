@@ -3,6 +3,7 @@ package com.sumerge.ahmed.course.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
+
 import java.util.List;
 
 @Data
